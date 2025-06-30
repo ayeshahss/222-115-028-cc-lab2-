@@ -1,0 +1,74 @@
+Keyword: int
+Function: main
+Symbol: (
+Symbol: )
+Operator/Symbol: {
+Keyword: const
+Keyword: char
+Identifier: answers
+Operator/Symbol: [
+Operator/Symbol: ]
+Operator/Symbol: =
+Operator/Symbol: {
+String literal: ""Yes""
+Operator/Symbol: ,
+String literal: ""No""
+Operator/Symbol: ,
+String literal: ""Maybe""
+Operator/Symbol: ,
+String literal: ""Definitely""
+Operator/Symbol: ,
+String literal: ""Ask again""
+Operator/Symbol: ,
+String literal: ""Unlikely""
+Operator/Symbol: }
+Operator/Symbol: ;
+Keyword: char
+Identifier: question
+Operator/Symbol: [
+Number: 100
+Operator/Symbol: ]
+Operator/Symbol: ;
+Function: srand
+Symbol: (
+Function: time
+Symbol: (
+Number: 0
+Symbol: )
+Symbol: )
+Operator/Symbol: ;
+Function: printf
+Symbol: (
+String literal: ""Ask a yes/no question: ""
+Symbol: )
+Operator/Symbol: ;
+Function: fgets
+Symbol: (
+Identifier: question
+Operator/Symbol: ,
+Identifier: sizeof
+Symbol: (
+Identifier: question
+Symbol: )
+Operator/Symbol: ,
+Identifier: stdin
+Symbol: )
+Operator/Symbol: ;
+Function: printf
+Symbol: (
+String literal: ""Magic 8 Ball says:""
+Operator/Symbol: ,
+Identifier: answers
+Operator/Symbol: [
+Function: rand
+Symbol: (
+Symbol: )
+Operator/Symbol: %
+Number: 6
+Operator/Symbol: ]
+Symbol: )
+Operator/Symbol: ;
+Keyword: return
+Number: 0
+Operator/Symbol: ;
+Operator/Symbol: }

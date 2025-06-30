@@ -1,0 +1,37 @@
+Keyword: int
+Function: main
+Symbol: (
+Symbol: )
+Symbol: {
+Keyword: int
+Identifier: num
+Operator: =
+Number: 4
+Symbol: ;
+Keyword: if
+Symbol: (
+Identifier: num
+Operator: %
+Number: 2
+Operator: ==
+Number: 0
+Symbol: )
+Function: printf
+Symbol: (
+String literal: ""%d is even\n""
+Symbol: ,
+Identifier: num
+Symbol: )
+Symbol: ;
+Keyword: else
+Function: printf
+Symbol: (
+String literal: ""%d is odd\n""
+Symbol: ,
+Identifier: num
+Symbol: )
+Symbol: ;
+Keyword: return
+Number: 0
+Symbol: ;
+Symbol: }

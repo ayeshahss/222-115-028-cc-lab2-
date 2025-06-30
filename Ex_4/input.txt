@@ -1,0 +1,15 @@
+int main() {
+    int secret, guess;
+    srand(time(0));
+    secret = rand() % 10 + 1;
+
+    printf("Guess a number between 1 and 10: ");
+    scanf("%d", &guess);
+
+    if (guess == secret)
+        printf("Correct");
+    else
+        printf("Wrong! The number was %d", secret);
+
+    return 0;
+}

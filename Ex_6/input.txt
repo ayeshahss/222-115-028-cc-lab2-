@@ -1,0 +1,14 @@
+int main() {
+    const char answers[] = {
+        "Yes", "No", "Maybe", "Definitely", "Ask again", "Unlikely"
+    };
+    char question[100];
+    srand(time(0));
+
+    printf("Ask a yes/no question: ");
+    fgets(question, sizeof(question), stdin);
+
+    printf("Magic 8 Ball says:", answers[rand() % 6]);
+
+    return 0;
+}

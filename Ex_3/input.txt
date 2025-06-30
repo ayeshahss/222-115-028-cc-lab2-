@@ -1,0 +1,8 @@
+int main() {
+    int a = 10, b = 20;
+    if (a > b)
+        printf("Largest: ", a);
+    else
+        printf("Largest: ", b);
+    return 0;
+}
